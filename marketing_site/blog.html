@@ -4,261 +4,309 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="about">
+    <header>
         <div class="container">
-            <div class="inner">
-                <header>
-                    <div class="head">
-                        <h1 class="title_head"><a href="index2.html">httads</a></h1>
-                        <ul class="list_head">
-                            <li><a href="about.html">Sobre nosotros</a></li>
-                            <li><a href="services.html">Servicios</a></li>
-                            <li><a href="industry.html">Industrias</a></li>
-                            <li><a href="tariffs.html">Tarifas</a></li>
-                            <li id="color"><a href="blog.html">Blog</a></li>
-                            <li><a href="contacts.html">Contactos</a></li>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg" style="background-color: #ecf0f3;">
+                    <div class="container-fluid">
+                      <h1 class="title_head fw-bold"><a class="navbar-brand" href="index.html">AdWay</a></h1>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list_head mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">Про_нас</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="services.html">Послуги</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="industry.html">Галузі</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="tariffs.html">Тарифи</a>
+                          </li>
+                          <li class="nav-item color">
+                            <a class="nav-link" href="blog.html">Блог</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакти</a>
+                          </li>
                         </ul>
-                        <form action="">
-                            <input type="text" placeholder="Buscar ..." class="search_head">
-                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2 search_head" type="search" placeholder="Пошук ..." aria-label="Search">
+                          <a class="shch_button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                         </form>
+                      </div>
                     </div>
-                </header>
-                <div class="empty"></div>
-                <div class="item_blog">
-                    <p class="basic_text">ARTÍCULOS DEL AUTOR</p>
-                </div>
-                <main>
-                    <div class="inner_main">
-                        <div class="our_blogs">
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/bl.jpg">
-                                        <p class="textwrapper_blog">El Método 4U es un enfoque sencillo para crear titulares eficaces que se pueden dominar en sólo 5 minutos.</p>
-                                        <p class="t_descr">¿Por qué es importante que un titular llame la atención? ¿Qué es la regla 4U y cuáles son sus principales componentes? ¿Cómo se aplica la regla 4U a los títulos, las líneas de asunto de los correos electrónicos y la redacción de artículos? ¿Cómo conocer a tu audiencia y utilizar cada U en tu título?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/2.jpeg">
-                                        <p class="textwrapper_blog">Evolución del marketing mix de 4P a 12P.</p>
-                                        <p class="t_descr">¿Qué es una mezcla de marketing? ¿De qué elementos consta el complejo de marketing? ¿Qué factores afectan la evolución del marketing mix? ¿Cuáles son los principales elementos que componen la mezcla de marketing 4P y por qué no son suficientes para el marketing moderno?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/5.jpg">
-                                        <p class="textwrapper_blog">Cómo desactivar temporalmente un sitio web sin perder ranking: recomendaciones de Google.</p>
-                                        <p class="t_descr">¿Qué consejo ofrece Google a las empresas que han suspendido la actividad online por el coronavirus? ¿Por qué es importante no desactivar el sitio incluso si su funcionalidad es limitada? ¿Cómo se puede informar a los clientes sobre el estado actual de la empresa? ¿Cómo deberían actualizarse los datos estructurados para reflejar la información actual sobre productos y servicios?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/content.png">
-                                        <p class="textwrapper_blog">Cómo evaluar la calidad del contenido de un sitio web.</p>
-                                        <p class="t_descr">¿Cuáles son las preguntas clave que sugiere Google para evaluar la calidad del contenido de un sitio? ¿Por qué es importante que el contenido proporcione información, estadísticas o análisis originales? ¿Por qué Google recomienda evitar titulares impactantes o exagerados? ¿Qué papel juega compartir o recomendar contenidos en la evaluación de su calidad?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/ec.jpg">
-                                        <p class="textwrapper_blog">No es necesario ahorrar en publicidad durante una crisis.</p>
-                                        <p class="t_descr">¿Por qué las empresas suelen recortar los presupuestos publicitarios durante las crisis económicas? ¿Qué efecto podría tener mantener o aumentar el gasto en publicidad durante una recesión? ¿Qué ejemplos de marcas exitosas que no redujeron su publicidad durante la crisis se mencionan en el texto? ¿Cuál fue la reacción del fundador de Walmart, Samuel Walton, ante la idea de participar en una recesión y qué simboliza?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/bd.jpg">
-                                        <p class="textwrapper_blog">Elementos básicos de una marca: nombre, dominio, logotipo, eslogan, carácter y otros.</p>
-                                        <p class="t_descr">¿Cuáles son los elementos básicos de una marca? ¿Cuáles son los criterios generales utilizados en la selección de elementos de marca? ¿Qué criterios específicos pueden influir en la elección de elementos de marca según la industria? ¿Cómo afecta la combinación armoniosa de elementos de la marca al crecimiento de su capital?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/ps.jpg">
-                                        <p class="textwrapper_blog">Integración de asociaciones secundarias en el posicionamiento de marca.</p>
-                                        <p class="t_descr">¿Qué son las asociaciones secundarias o subsidiarias en el contexto de una marca? ¿Cómo afectan las asociaciones secundarias a la percepción de la marca por parte de los consumidores? ¿Qué fuentes se pueden utilizar para crear asociaciones secundarias? ¿Por qué es importante crear sus propios puntos de diferenciación para el éxito de la marca?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/st.png">
-                                        <p class="textwrapper_blog">Estrategia de marketing: definición, desarrollo, asesoramiento.</p>
-                                        <p class="t_descr">¿Qué es una estrategia de marketing? ¿Qué pasos debe seguir para desarrollar una estrategia de marketing eficaz? ¿Cuáles son los factores clave a considerar al crear una estrategia de marketing? ¿Cuál es la importancia de una definición clara del objetivo para la construcción exitosa de una estrategia?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/pl.jpg">
-                                        <p class="textwrapper_blog">Cómo hacer un plan de marketing: definición, estructura y consejos.</p>
-                                        <p class="t_descr">¿Qué es un plan de marketing y cuáles son sus componentes clave? ¿Qué estructura del plan de marketing es más eficaz para lograr el éxito? ¿Se puede hablar de la existencia de un plan de marketing ideal y qué lo caracteriza? ¿Qué papel juega una definición clara del objetivo en el éxito del plan de marketing?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/pr.jpg">
-                                        <p class="textwrapper_blog">Integración de comunicaciones de marketing para una promoción eficaz de la marca.</p>
-                                        <p class="t_descr">¿Cómo se puede definir el concepto de integración de comunicaciones de marketing? ¿Qué factores hay que tener en cuenta a la hora de elegir las comunicaciones para la integración? ¿Cómo se pueden combinar las comunicaciones de marketing en un único sistema integrado? ¿Cuál es el papel de la integración de las comunicaciones de marketing en la implementación del plan de marketing?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/br.jpg">
-                                        <p class="textwrapper_blog">El capital de marca como elemento central del complejo de marketing.</p>
-                                        <p class="t_descr">¿Cómo se define el valor de marca? ¿Qué beneficios aporta el valor de marca a una empresa? ¿Cuál es la estructura del capital de marca y cuáles son sus principales componentes? ¿Cómo se puede desarrollar el valor de marca?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/mr.webp">
-                                        <p class="textwrapper_blog">Servicios de marketing: tipos, especialización, importancia para las empresas.</p>
-                                        <p class="t_descr">¿Qué son los servicios de marketing? ¿Cómo es beneficiosa la industria de servicios de marketing para los negocios? ¿Qué tipos de servicios de marketing tienen mayor demanda? ¿Cuáles son las principales ventajas de utilizar el outsourcing de marketing para las empresas?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/pos.jpg">
-                                        <p class="textwrapper_blog">El posicionamiento como método de construcción de capital de marca.</p>
-                                        <p class="t_descr">¿Cuál es la definición de posicionamiento en marketing? ¿Cómo se relaciona el posicionamiento con el concepto de valor de marca? ¿Qué pasos se deben tomar para implementar efectivamente el posicionamiento en la práctica? ¿Cuál es la principal diferencia entre el concepto de valor de marca y posicionamiento?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/ark.jpg">
-                                        <p class="textwrapper_blog">Evaluación de la eficacia de la estrategia de marketing y plan de marketing.</p>
-                                        <p class="t_descr">¿Qué pasos se deben tomar después de lanzar un marketing mix? ¿Qué métodos se pueden utilizar para evaluar la eficacia de una estrategia y un plan de marketing? ¿Cuáles son los signos de esfuerzos de marketing exitosos? ¿Qué etapas clave incluye el proceso de evaluación de la efectividad del complejo de marketing?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/perf.jfif">
-                                        <p class="textwrapper_blog">Qué es el marketing de resultados: definición, beneficios y principales métricas.</p>
-                                        <p class="t_descr">¿Cuál es la definición de marketing de resultados? ¿Cuáles son las ventajas del marketing de resultados en comparación con los enfoques de marketing tradicionales? ¿Cuáles son las métricas clave utilizadas para evaluar la eficacia del marketing de resultados? ¿Cómo permite el marketing de resultados a los anunciantes optimizar sus estrategias en tiempo real?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/audit.png">
-                                        <p class="textwrapper_blog">¿Qué es la auditoría de marketing y el seguimiento de marketing? Cuál es la diferencia</p>
-                                        <p class="t_descr">¿Cuál es la definición de auditoría de marketing y seguimiento de marketing? ¿Cuál es la principal diferencia entre auditoría y seguimiento de marketing? ¿En qué situaciones es apropiado utilizar una auditoría de marketing y en qué situaciones es apropiado utilizar el seguimiento? ¿Qué herramientas o métodos se pueden utilizar para monitorear el marketing?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/risk.jpg">
-                                        <p class="textwrapper_blog">Gestión de riesgos: necesidad y enfoques modernos.</p>
-                                        <p class="t_descr">¿Cuál es el papel de la gestión de riesgos en los negocios y por qué es importante? ¿Cuáles son los riesgos típicos que pueden surgir en el entorno empresarial actual? ¿Qué estrategias o métodos se pueden utilizar para contrarrestar eficazmente los riesgos en los negocios? ¿Qué ejemplos específicos pueden ilustrar los riesgos estratégicos y operativos que enfrentan las empresas?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/marketer.jpg">
-                                        <p class="textwrapper_blog">¿Quién es un comercializador? Para la autopercepción, para el empresario, para la sociedad.</p>
-                                        <p class="t_descr">¿Cuál es la definición de profesión de un especialista en marketing y cuáles son sus principales responsabilidades? ¿Cuál es la importancia de la profesión del marketing para la sociedad y la economía en su conjunto? ¿Qué ventajas y beneficios recibe el empleador de la cooperación con un comercializador? ¿Cómo puede un especialista en marketing dar forma a su percepción e identidad profesional?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="t-container_blog">
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/complex.jpg">
-                                        <p class="textwrapper_blog">Cómo desarrollar un complejo de marketing: el concepto clásico de las 4P.</p>
-                                        <p class="t_descr">¿Cuáles son los principales elementos que componen el complejo de marketing según el concepto 4P? ¿Qué estrategias y herramientas son más efectivas para cada elemento del complejo 4P? ¿Qué enfoques se pueden utilizar para integrar diferentes elementos de la mezcla de marketing? ¿Cómo puede una experiencia positiva de interactuar con una marca afectar el éxito de una combinación de marketing?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                                <div class="t-col">
-                                    <a class="t_link" href="#">
-                                        <img  class="t_imgbox" src="img/virus.jpg">
-                                        <p class="textwrapper_blog">¿Qué es el marketing viral? Definición, aplicación y posibles complicaciones.</p>
-                                        <p class="t_descr">¿Qué es el marketing viral y cuáles son sus principios fundamentales? ¿Qué factores y características afectan el éxito del marketing viral? ¿Cuáles son los desafíos potenciales de las campañas de marketing viral? ¿Qué elementos del contenido hacen que el marketing viral sea eficaz y atractivo para la audiencia?</p>
-                                        <p class="text3_blog">leer más</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="detail_button4">
-                            <a href="contacts.html"><div>Discutir la necesidad y el costo</div></a>
-                        </div>
-                    </div>
-                </main>
-                <footer>
-                    <div class="foot">
-                        <div class="content_foot">
-                            <div class="inner_foot">
-                                <h1 class="title_foot"><a href="index.html">httads</a></h1>
-                                <p class="text_foot">2024 © httads</p>
-                            </div>
-                            <div class="inner_foot">
-                                <div class="contacts_foot">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="#"><p class="phone">+34 (652) 726-499</p></a>
-                                </div>
-                                <div class="contacts_foot2">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    <a href="#"><p class="phone">httads.com</p></a>
-                                </div>
-                            </div>
-                            <div class="inner_foot">
-                                <ul class="list_foot">
-                                    <li><a href="index2.html">Principal</a></li>
-                                    <li><a href="about.html">Sobre nosotros</a></li>
-                                    <li><a href="services.html">Servicios</a></li>
-                                    <li><a href="industry.html">Industrias</a></li>
-                                    <li><a href="tariffs.html">Tarifas</a></li>
-                                    <li id="color"><a href="blog.html">Blog</a></li>
-                                    <li><a href="contacts.html">Contactos</a></li>
-                                </ul>
-                                <div class="networks">
-                                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="https://web.telegram.org" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                </nav>
             </div>
         </div>
-    </div>
+    </header>
+    <section class="fon_photo5" style="padding-top: 150px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <p class="basic_text">Блог</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                  <a class="t_link" href="#">
+                    <img  class="t_imgbox img-fluid mx-auto" src="img/bl.jpg">
+                    <p class="textwrapper_blog">Метод 4U — це простий підхід до створення ефективних заголовків, які можна освоїти всього за 5 хвилин.</p>
+                    <p class="t_descr">Чому важливо, щоб заголовок привертав увагу? Що таке правило 4U і які його основні компоненти? Як правило 4U застосовується до заголовків, тем електронних листів і написання статей? Як дізнатися свою аудиторію та використовувати кожне U у назві?</p>
+                    <p class="text3_blog">читати далі</p>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                  <a class="t_link" href="#">
+                    <img  class="t_imgbox img-fluid mx-auto" src="img/2.jpeg">
+                    <p class="textwrapper_blog">Еволюція маркетинг-міксу від 4P до 12P</p>
+                    <p class="t_descr">Що таке маркетинг-мікс? З яких елементів складається маркетинговий комплекс? Які фактори впливають на еволюцію комплексу маркетингу? Які основні елементи складають маркетинг-мікс 4P і чому їх недостатньо для сучасного маркетингу?</p>
+                    <p class="text3_blog">читати далі</p>
+                  </a>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/5.jpg">
+                  <p class="textwrapper_blog">Як тимчасово дезактивувати веб-сайт без втрати рейтингу: рекомендації Google.</p>
+                  <p class="t_descr">Які поради дає Google компаніям, які призупинили діяльність в Інтернеті через коронавірус? Чому важливо не відключати сайт, навіть якщо його функціональність обмежена? Як можна інформувати клієнтів про поточний стан компанії? Як слід оновлювати структуровані дані, щоб відображати поточну інформацію про продукти та послуги?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/content.png">
+                  <p class="textwrapper_blog">Як оцінити якість контенту сайту.</p>
+                  <p class="t_descr">Які ключові запитання Google пропонує для оцінки якості вмісту сайту? Чому для вмісту важливо надавати оригінальну інформацію, статистику чи аналіз? Чому Google рекомендує уникати шокуючих або перебільшених заголовків? Яку роль відіграє поширення або рекомендація вмісту в оцінці його якості?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/ec.jpg">
+                  <p class="textwrapper_blog">Не варто економити на рекламі під час кризи.</p>
+                  <p class="t_descr">Чому під час економічних криз компанії часто скорочують рекламні бюджети? Який ефект може мати збереження або збільшення витрат на рекламу під час рецесії? Які приклади успішних брендів, які не скоротили рекламу під час кризи, наведені в тексті? Якою була реакція засновника Walmart Семюеля Уолтона на ідею участі у рецесії та що вона символізує?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/bd.jpg">
+                  <p class="textwrapper_blog">Основні елементи бренду: назва, домен, логотип, слоган, персонаж та інші.</p>
+                  <p class="t_descr">Які основні елементи бренду? Які загальні критерії використовуються при виборі елементів бренду? Які конкретні критерії можуть впливати на вибір елементів бренду в залежності від галузі? Як гармонійне поєднання елементів бренду впливає на зростання його капіталу?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/ps.jpg">
+                  <p class="textwrapper_blog">Інтеграція вторинних асоціацій у позиціонування бренду.</p>
+                  <p class="t_descr">Що таке вторинні або допоміжні асоціації в контексті бренду? Як вторинні асоціації впливають на сприйняття бренду споживачами? Які джерела можна використовувати для створення вторинних асоціацій? Чому для успіху бренду важливо створювати власні точки диференціації?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/st.png">
+                  <p class="textwrapper_blog">Маркетингова стратегія: визначення, розробка, поради.</p>
+                  <p class="t_descr">Що таке маркетингова стратегія? Які кроки слід зробити для розробки ефективної маркетингової стратегії? Які ключові фактори слід враховувати при створенні маркетингової стратегії? Яке значення має чітке визначення цілі для успішної побудови стратегії?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/pl.jpg">
+                  <p class="textwrapper_blog">Як скласти маркетинговий план: визначення, структура та поради.</p>
+                  <p class="t_descr">Що таке маркетинговий план і які його ключові складові? Яка структура маркетингового плану найбільш ефективна для досягнення успіху? Чи можна говорити про існування ідеального маркетингового плану і чим він характеризується? Яку роль відіграє чітке визначення мети в успіху маркетингового плану?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/pr.jpg">
+                  <p class="textwrapper_blog">Інтеграція маркетингових комунікацій для ефективного просування бренду.</p>
+                  <p class="t_descr">Як можна визначити концепцію інтеграції маркетингових комунікацій? Які фактори необхідно враховувати при виборі комунікацій для інтеграції? Як об'єднати маркетингові комунікації в єдину цілісну систему? Яка роль інтеграції маркетингових комунікацій у реалізації маркетингового плану?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/br.jpg">
+                  <p class="textwrapper_blog">Фірмовий капітал як центральний елемент маркетингового комплексу.</p>
+                  <p class="t_descr">Як визначається вартість бренду? Які переваги приносить компанії вартість бренду? Яка структура капіталу марки і які його основні складові? Як розвинути цінність бренду?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/mr.webp">
+                  <p class="textwrapper_blog">Маркетингові послуги: види, спеціалізація, значення для компаній.</p>
+                  <p class="t_descr">Що таке маркетингові послуги? Чим індустрія маркетингових послуг корисна для бізнесу? Які види маркетингових послуг найбільш затребувані? Які основні переваги використання маркетингового аутсорсингу для компаній?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/pos.jpg">
+                  <p class="textwrapper_blog">Позиціонування як метод формування капіталу бренду.</p>
+                  <p class="t_descr">Яке визначення позиціонування в маркетингу? Яким чином позиціонування пов’язане з концепцією цінності бренду? Які кроки слід зробити для ефективного впровадження позиціонування на практиці? У чому головна відмінність поняття цінності бренду від позиціонування?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/ark.jpg">
+                  <p class="textwrapper_blog">Оцінка ефективності маркетингової стратегії та плану маркетингу.</p>
+                  <p class="t_descr">Які кроки потрібно зробити після запуску маркетинг-міксу? За допомогою яких методів можна оцінити ефективність маркетингової стратегії та плану? Які ознаки успішних маркетингових зусиль? Які основні етапи включає процес оцінки ефективності маркетингового комплексу?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/perf.jfif">
+                  <p class="textwrapper_blog">Що таке ефективний маркетинг: визначення, переваги та основні показники.</p>
+                  <p class="t_descr">Яке визначення ефективного маркетингу? Які переваги ефективного маркетингу порівняно з традиційними маркетинговими підходами? Які ключові показники використовуються для оцінки ефективності ефективного маркетингу? Як ефективний маркетинг дозволяє рекламодавцям оптимізувати свої стратегії в реальному часі?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/audit.png">
+                  <p class="textwrapper_blog">Що таке маркетинговий аудит і маркетинговий моніторинг? Яка різниця.</p>
+                  <p class="t_descr">Яке визначення маркетингового аудиту та маркетингового моніторингу? У чому головна відмінність аудиту від маркетингового моніторингу? У яких ситуаціях доцільно використовувати маркетинговий аудит, а в яких – моніторинг? Які інструменти чи методи можна використовувати для моніторингу маркетингу?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/risk.jpg">
+                  <p class="textwrapper_blog">Управління ризиками: необхідність і сучасні підходи.</p>
+                  <p class="t_descr">Яка роль управління ризиками в бізнесі і чому це важливо? Які типові ризики можуть виникнути в сучасному бізнес-середовищі? Які стратегії чи методи можна використовувати для ефективної протидії ризикам у бізнесі? Які конкретні приклади можуть проілюструвати стратегічні та операційні ризики, з якими стикаються компанії?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/marketer.jpg">
+                  <p class="textwrapper_blog">Хто такий маркетолог? Для самосприйняття, для бізнесмена, для суспільства.</p>
+                  <p class="t_descr">Що таке визначення професії маркетолога та які його основні обов’язки? Яке значення має професія маркетингу для суспільства та економіки в цілому? Які переваги та вигоди отримує роботодавець від співпраці з маркетологом? Як маркетолог може сформувати своє професійне сприйняття та ідентичність?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/complex.jpg">
+                  <p class="textwrapper_blog">Як розробити маркетинговий комплекс: класична концепція 4P.</p>
+                  <p class="t_descr">З яких основних елементів складається маркетинговий комплекс за концепцією 4P? Які стратегії та інструменти найбільш ефективні для кожного елемента комплексу 4P? Які підходи можна використовувати для інтеграції різних елементів комплексу маркетингу? Як позитивний досвід взаємодії з брендом може вплинути на успіх комплексу маркетингу?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 px-0 px-sm-2 px-md-2 px-lg-2">
+                <a class="t_link" href="#">
+                  <img  class="t_imgbox img-fluid mx-auto" src="img/virus.jpg">
+                  <p class="textwrapper_blog">Що таке вірусний маркетинг? Визначення, застосування та можливі ускладнення.</p>
+                  <p class="t_descr">Що таке вірусний маркетинг і які його основні принципи? Які фактори та характеристики впливають на успіх вірусного маркетингу? Які потенційні проблеми вірусних маркетингових кампаній? Які елементи контенту роблять вірусний маркетинг ефективним і привабливим для аудиторії?</p>
+                  <p class="text3_blog">читати далі</p>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                  <a href="contacts.html" class="btn-ya btn-lg">Обговорити потреби та вартість</a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg" style="background-color: #445068;">
+              <div class="container-fluid ">
+                <h1 class="title_foot fw-bold"><a class="navbar-brand" href="index.html">AdWay</a></h1>          
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                  <ul class="navbar-nav me-auto list_foot mx-auto" style="font-weight: bold;">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">Про_нас</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="services.html">Послуги</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="industry.html">Галузі</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tariffs.html">Тарифи</a>
+                    </li>
+                    <li class="nav-item color">
+                      <a class="nav-link" href="blog.html">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacts.html">Контакти</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </nav>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <p class="text_foot">2024 © AdWay</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 inner_foot">
+              <div class="contacts_foot">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="#"><p class="phone">+380 (68) 850-81-61</p></a>
+              </div>
+              <div class="contacts_foot2">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="#"><p class="phone">AdWay.com</p></a>
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+              <div class="networks mx-sm-auto text-lg-start">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://web.telegram.org" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

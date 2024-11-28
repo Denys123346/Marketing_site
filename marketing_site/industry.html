@@ -4,331 +4,505 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="about">
+    <header>
         <div class="container">
-            <div class="inner">
-                <header>
-                    <div class="head">
-                        <h1 class="title_head"><a href="index2.html">httads</a></h1>
-                        <ul class="list_head">
-                            <li><a href="about.html">Sobre nosotros</a></li>
-                            <li><a href="services.html">Servicios</a></li>
-                            <li id="color"><a href="industry.html">Industrias</a></li>
-                            <li><a href="tariffs.html">Tarifas</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contacts.html">Contactos</a></li>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg" style="background-color: #ecf0f3;">
+                    <div class="container-fluid">
+                      <h1 class="title_head fw-bold"><a class="navbar-brand" href="index.html">AdWay</a></h1>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list_head mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">Про_нас</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="services.html">Послуги</a>
+                          </li>
+                          <li class="nav-item color">
+                            <a class="nav-link" href="industry.html">Галузі</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="tariffs.html">Тарифи</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Блог</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакти</a>
+                          </li>
                         </ul>
-                        <form action="">
-                            <input type="text" placeholder="Buscar ..." class="search_head">
-                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2 search_head" type="search" placeholder="Пошук ..." aria-label="Search">
+                          <a class="shch_button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                         </form>
+                      </div>
                     </div>
-                </header>
-                <div class="empty"></div>
-                <div class="item_industry">
-                    <p class="basic_text">Industrias</p>
-                </div>
-                <main>
-                    <div class="inner_main">
-                        <div class="our_industry">
-                            <h5 class="title2_services_services">Nuestra experiencia por industria</h5>
-                            <p class="t-title">Industrias de servicio</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i1.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de despachos de abogados y colegios de abogados.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i2.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de firmas de contabilidad y auditoría.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i3.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de estudios de arquitectura y estudios de diseño.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">sector TI</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i4.avif" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de empresas, productos y servicios TI.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i5.jfif" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos y empresas FinTech</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i6.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos y servicios de IA.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Campo médico</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i7.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de la clínica médica y servicios médicos.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i8.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos farmacéuticos y medicamentos.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i9.webp" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de una clínica o consultorio dental.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Bienes raíces</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i10.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de agencias inmobiliarias y agentes inmobiliarios.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i11.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de objetos inmobiliarios residenciales.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i12.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de objetos inmobiliarios comerciales.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Sector financiero</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i13.webp" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de bancos y servicios bancarios.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i14.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de servicios de seguros y compañías de seguros.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i15.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de microcréditos y entidades microfinancieras.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Sector hotelero</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i16.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de un hotel o cadena hotelera.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i17.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de un restaurante o cadena de restaurantes.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i18.webp" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de servicios turísticos y agencias de viajes.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Industria de la belleza</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i19.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de cosmética y perfumería.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i20.png" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de salones de belleza.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i21.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de centros y salones de SPA.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Minorista</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i22.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de tienda online y comercio online.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i23.jfif" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de un mini mercado o tienda de comestibles.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i24.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de tiendas de ropa, calzado y complementos.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">FMCG - productos alimenticios</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i25.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos embutidos y delicias cárnicas.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i26.avif" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos comestibles.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i27.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de productos semiacabados congelados.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Bienes de consumo duradero</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i28.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de muebles y tiendas de muebles.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i29.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de materiales y herramientas de construcción.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i30.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de artículos para el hogar.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Industria automotriz</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i31.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización en el mercado de autopartes y bienes para automóviles.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i32.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de estaciones de servicio de automóviles y servicios de automóviles.</p>
-                                    </a>
-                                </div>
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i33.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de concesionarios de automóviles y talleres.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Sector agricultor</p>
-                            <div class="t-container">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i34.jpg" class="t_img">
-                                        <p class="t_textwrapper">Marketing en la agroindustria: un cambio de perspectiva y enfoques.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <p class="t-title">Deporte</p>
-                            <div class="t-container_b">
-                                <div class="t_col">
-                                    <a class="t_link" href="#">
-                                        <img src="img/i35.jpg" class="t_img">
-                                        <p class="t_textwrapper">Comercialización de un gimnasio o gimnasio.</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="detail_button4">
-                                <a href="contacts.html"><div>Discutir la necesidad y el costo</div></a>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                <footer>
-                    <div class="foot">
-                        <div class="content_foot">
-                            <div class="inner_foot">
-                                <h1 class="title_foot"><a href="index.html">httads</a></h1>
-                                <p class="text_foot">2024 © httads</p>
-                            </div>
-                            <div class="inner_foot">
-                                <div class="contacts_foot">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="#"><p class="phone">+34 (652) 726-499</p></a>
-                                </div>
-                                <div class="contacts_foot2">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    <a href="#"><p class="phone">httads.com</p></a>
-                                </div>
-                            </div>
-                            <div class="inner_foot">
-                                <ul class="list_foot">
-                                    <li><a href="index2.html">Principal</a></li>
-                                    <li><a href="about.html">Sobre nosotros</a></li>
-                                    <li><a href="services.html">Servicios</a></li>
-                                    <li id="color"><a href="industry.html">Industrias</a></li>
-                                    <li><a href="tariffs.html">Tarifas</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contacts.html">Contactos</a></li>
-                                </ul>
-                                <div class="networks">
-                                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    <a href="https://web.telegram.org" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                </nav>
             </div>
         </div>
-    </div>
+    </header>
+    <section class="fon_photo3" style="padding-top: 150px;">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-12">
+                  <p class="basic_text">Галузі</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="title2_services_services fw-bold">НАШ ДОСВІД ЗА ГАЛУЗЯМИ</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">СФЕРА ПОСЛУГ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i1.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг юридичних фірм та адвокатських об'єднань</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i2.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг бухгалтерських та аудиторських фірм</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i3.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг архітектурних бюро та студій дизайну</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">IT СЕКТОР</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i4.avif" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг IT компаній, продуктів та послуг</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i5.jfif" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг FinTech продуктів та компаній</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i6.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг AI продуктів та сервісів</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">МЕДИЧНА СФЕРА</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i7.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг медичної клініки та медичних послуг</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i8.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг фармацевтичних виробів та лікарських засобів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i9.webp" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг стоматологічної клініки чи практики</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">НЕРУХОМІСТЬ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i10.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг агенцій нерухомості та ріелторів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i11.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг об'єктів житлової нерухомості</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i12.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг об'єктів комерційної нерухомості</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">ФІНАНСОВИЙ СЕКТОР</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i13.webp" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг банків та банківських послуг</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i14.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг страхових послуг та страхових компаній</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i15.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг мікрокредитів та мікрофінансових організацій</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">СЕКТОР ГОСТИННОСТІ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i16.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг готелю чи готельної мережі</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i17.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг ресторану чи ресторанної мережі</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i18.webp" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг туристичних послуг і туристичних агенцій</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">ІНДУСТРІЯ КРАСИ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i19.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг косметики та парфумерії</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i20.png" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг салону краси</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i21.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг SPA центрів та салонів</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">РОЗДРІБНА ТОРГІВЛЯ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i22.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг інтернет-магазину та онлайн торгівлі</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i23.jfif" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг міні-маркету або продуктового магазину</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i24.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг магазинів одягу, взуття та аксесуарів</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">FMCG - ХАРЧОВІ ТОВАРИ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i25.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг ковбасних виробів та м' ясних делікатесів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i26.avif" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг бакалійних товарів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i27.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг заморожених напівфабрикатів</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">ТОВАРИ ТРИВАЛОГО КОРИСТУВАННЯ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i28.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг меблів та меблевих магазинів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i29.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг будівельних матеріалів та інструментів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i30.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг товарів для дому та побуту</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">АВТОМОБІЛЬНА ГАЛУЗЬ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i31.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг на ринку автозапчастин та автотоварів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i32.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг автомобільних СТО та автосервісів</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i33.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг автосалонів та автомайданчиків</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">АГРАРНИЙ СЕКТОР</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i34.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг в агробізнесі - зміна світогляду та підходів</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="t-title">СПОРТ</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="t_col">
+              <a class="t_link" href="#">
+                  <img src="img/i35.jpg" class="t_img img-fluid mx-auto">
+                  <p class="t_textwrapper">Маркетинг фітнес-клубу чи тренажерного залу</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <a href="contacts.html" class="btn-ya btn-lg">Обговорити потреби та вартість</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg" style="background-color: #445068;">
+            <div class="container-fluid ">
+              <h1 class="title_foot fw-bold"><a class="navbar-brand" href="index.html">AdWay</a></h1>          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav me-auto list_foot mx-auto" style="font-weight: bold;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Про_нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Послуги</a>
+                  </li>
+                  <li class="nav-item color">
+                    <a class="nav-link" href="industry.html">Галузі</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tariffs.html">Тарифи</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Блог</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <p class="text_foot">2024 © AdWay</p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 inner_foot">
+            <div class="contacts_foot">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="#"><p class="phone">+380 (68) 850-81-61</p></a>
+            </div>
+            <div class="contacts_foot2">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <a href="#"><p class="phone">AdWay.com</p></a>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+            <div class="networks mx-sm-auto text-lg-start">
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://web.telegram.org" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
